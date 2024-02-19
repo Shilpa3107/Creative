@@ -9,7 +9,7 @@ video_capture = cv2.VideoCapture(0)
 while True:
     ret, frames = video_capture.read()
 
-    # Check if the frame is valid
+    # Check if the frame is valid 
     if not ret:
         print("Error: Could not read a frame from the camera.")
         break
